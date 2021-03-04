@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    
+}
+/************************** contenedor osea la caja de todo****************************/
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.contenido-header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/****************menu para la distancia***************/
+.site-header{
+    background-color: #333333;
+    padding: 2rem 0 3rem 0;
+}
+/**************************** fondo para el inicio*********************/
+.site-header.inicio{
+    background-image: url(../img/una-taza-de-javascript.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+/*********** menu de navegacion***************/
+.barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+} 
+/****************** links para separar los enlaces*************/
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+/****************** titulo-header*************************/
+.titulo{
+    color: white;
+}
+.sub-titulo{
+    color: white;
+    text-align: center;
+
+}
+.info{
+    width: 40%;
+    color: white;
+    margin-left: 2rem;
+    margin-bottom: 20rem;
+}
+/*************************************contenerdor cajas*****************************/
+/**************contiene a todas las cajas*******************/
+.contenedor-cajas{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+/***************cajas internas**************/
+.contenedor-anuncios{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.contenido-anuncios {
+    padding: 1rem;
+    font-size: 1.2rem;
+    
+}
+.contenido-anuncios p,h3{
+    color: black;
+}
+.contenido-anuncios p{
+    font-size: 1.2rem;
+}
+.contenido-anuncios li{
+    font-size: 1.1rem;
+}
+
+
+.anuncios{
+    flex: 0 0 calc(33.3% - 1rem);
+    border: 2px solid white;
+    background-color: #dacdcd;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    color: black;
+    background-color: chocolate;
+    border: 2px solid black;
+    text-decoration: none;
+}
+ /*****************botones******************
+    
+    
+    
+
